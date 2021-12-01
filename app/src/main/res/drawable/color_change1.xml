@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false">  <!--버튼이 안눌려있을 떄-->
+        <shape>
+            <solid android:color="#FFD18D"></solid>
+            <corners android:radius="20dp"></corners>
+        </shape>
+    </item>
+
+    <item android:state_pressed="true"> <!--버튼이 눌려있을 때-->
+        <shape>
+            <solid android:color="#FDC36C"></solid>
+            <corners android:radius="20dp"></corners>
+        </shape>
+    </item>
+</selector>

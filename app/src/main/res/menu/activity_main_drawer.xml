@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_home_black"
+            android:title="코로나19 안전정보"
+            app:itemTextAppearance="@style/nav_text"/>
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_black"
+            android:title="프로필"
+            android:fontFamily="@font/hs"/>
+
+    </group>
+
+    <item android:title="exit">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/logout"
+                android:title="로그아웃"
+                android:fontFamily="@font/hs"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/remove"
+        android:title="탈퇴"
+        android:fontFamily="@font/hs"/>
+</menu>

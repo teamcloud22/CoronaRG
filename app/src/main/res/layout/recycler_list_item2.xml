@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:translationY="-10dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="219dp"
+        app:cardCornerRadius="18dp"
+        app:cardElevation="10dp"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="384dp"
+            android:layout_height="160dp"
+            android:orientation="vertical"
+            android:padding="15dp"
+            android:translationX="10dp">
+
+            <LinearLayout
+                android:layout_width="346dp"
+                android:layout_height="43dp"
+                android:orientation="horizontal"
+                android:padding="4dp"
+                android:translationY="5dp">
+
+                <TextView
+                    android:id="@+id/vaccineTextViewId"
+                    android:layout_width="290dp"
+                    android:layout_height="39dp"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/hs"
+                    android:paddingLeft="4dp"
+                    android:text="전국 n차 접종"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="347dp"
+                android:layout_height="98dp">
+
+                <View
+                    android:layout_width="225dp"
+                    android:layout_height="2dp"
+                    android:background="@color/orange2" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="346dp"
+                android:layout_height="89dp"
+                android:orientation="horizontal"
+                android:padding="4dp"
+                android:translationY="-100dp">
+
+                <TextView
+                    android:id="@+id/percentTextViewId"
+                    android:layout_width="78dp"
+                    android:layout_height="75dp"
+                    android:fontFamily="@font/hs"
+                    android:gravity="center"
+                    android:textColor="#D7F80505"
+                    android:textSize="26dp"
+                    android:translationY="5dp" />
+
+                <TextView
+                    android:layout_width="36dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/hs"
+                    android:gravity="center"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="10dp"
+                    android:text="누적"
+                    android:textSize="16dp"
+                    android:translationX="5dp"
+                    android:translationY="-15dp" />
+
+                <TextView
+                    android:id="@+id/totalTextViewId"
+                    android:layout_width="129dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/hs"
+                    android:paddingStart="20dp"
+                    android:paddingLeft="24dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="8dp"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    android:translationX="5dp"
+                    android:translationY="-13dp" />
+
+
+                <TextView
+                    android:layout_width="36dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/hs"
+                    android:gravity="center"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="10dp"
+                    android:text="신규"
+                    android:textSize="16dp"
+                    android:translationX="-160dp"
+                    android:translationY="21dp" />
+
+                <TextView
+                    android:id="@+id/newTextViewId"
+                    android:layout_width="129dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/hs"
+                    android:paddingStart="20dp"
+                    android:paddingLeft="24dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="8dp"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    android:translationX="-160dp"
+                    android:translationY="23dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

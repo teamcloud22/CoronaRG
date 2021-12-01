@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/re1_btn1"
+        android:layout_width="100dp"
+        android:background="@drawable/color_change1"
+        android:text="국내"
+        android:fontFamily="@font/hs"
+        android:layout_height="35dp"
+        android:translationX="50dp"
+        android:translationY="5dp"
+        android:textSize="17dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/re1_btn2"
+        android:layout_width="100dp"
+        android:background="@drawable/color_change1"
+        android:text="세계"
+        android:textSize="17dp"
+        android:fontFamily="@font/hs"
+        android:layout_height="35dp"
+        android:translationX="170dp"
+        android:translationY="5dp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:translationX="20dp"
+        android:translationY="50dp"
+        android:fontFamily="@font/hs"
+        android:visibility="invisible" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler1"
+        android:layout_width="402dp"
+        android:layout_height="480dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:scrollbars="vertical"
+        android:translationY="75dp">
+    </androidx.recyclerview.widget.RecyclerView>
+
+</RelativeLayout>

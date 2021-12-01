@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/re1_btn1"
+        android:layout_width="100dp"
+        android:background="@drawable/color_change1"
+        android:text="전국"
+        android:textSize="17dp"
+        android:fontFamily="@font/hs"
+        android:layout_height="35dp"
+        android:translationX="50dp"
+        android:translationY="5dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/re1_btn2"
+        android:layout_width="100dp"
+        android:background="@drawable/color_change1"
+        android:text="지역"
+        android:textSize="17dp"
+        android:fontFamily="@font/hs"
+        android:layout_height="35dp"
+        android:translationX="170dp"
+        android:translationY="5dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler2"
+        android:layout_width="402dp"
+        android:layout_height="570dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:scrollbars="vertical"
+        android:translationY="35dp">
+    </androidx.recyclerview.widget.RecyclerView>
+</RelativeLayout>
